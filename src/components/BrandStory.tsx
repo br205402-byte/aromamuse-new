@@ -56,6 +56,22 @@ export default function BrandStory() {
                 <p className="text-sm text-charcoal/60">Global Sourcing Partners</p>
               </div>
             </div>
+
+            {/* Product Category Quick Links */}
+            <div className="mt-12 pt-12 border-t border-charcoal/5">
+              <h4 className="text-xs font-bold uppercase tracking-widest text-charcoal/40 mb-6">Main Categories</h4>
+              <div className="flex flex-wrap gap-3">
+                {['감정 케어', '면역력 강화', '홈케어'].map((cat) => (
+                  <a
+                    key={cat}
+                    href="#products"
+                    className="px-5 py-2 bg-base rounded-full text-xs font-medium text-charcoal/70 hover:bg-sage hover:text-white transition-all"
+                  >
+                    {cat}
+                  </a>
+                ))}
+              </div>
+            </div>
           </motion.div>
         </div>
       </div>

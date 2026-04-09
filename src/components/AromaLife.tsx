@@ -29,6 +29,7 @@ export default function AromaLife() {
               viewport={{ once: true }}
               transition={{ delay: idx * 0.1 }}
               className="group cursor-pointer"
+              onClick={() => post.link && window.open(post.link, '_blank')}
             >
               <div className="aspect-[16/10] rounded-2xl overflow-hidden mb-6 soft-shadow relative">
                 <img

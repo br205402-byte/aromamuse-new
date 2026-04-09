@@ -7,6 +7,8 @@ export const PRODUCTS: Product[] = [
     category: '감정 케어',
     description: '편안한 휴식과 숙면을 돕는 가장 사랑받는 에센셜 오일입니다.',
     image: 'https://images.unsplash.com/photo-1595981267035-7b04ca84a82d?auto=format&fit=crop&q=80&w=800',
+    price: '34,000원',
+    buyUrl: 'https://doterra.me/neL3T9'
   },
   {
     id: '2',
@@ -14,13 +16,17 @@ export const PRODUCTS: Product[] = [
     category: '면역력 강화',
     description: '상쾌한 활력을 불어넣고 소화 및 호흡기 건강을 지원합니다.',
     image: 'https://images.unsplash.com/photo-1602928321679-560bb453f190?auto=format&fit=crop&q=80&w=800',
+    price: '32,000원',
+    buyUrl: 'https://doterra.me/neL3T9'
   },
   {
     id: '3',
     name: '도테라 디퓨저 (Diffuser)',
     category: '홈케어',
     description: '공간을 향기로 채우고 공기를 정화하는 프리미엄 디퓨저입니다.',
-    image: 'https://images.unsplash.com/photo-1588333390643-0c851927279c?auto=format&fit=crop&q=80&w=800',
+    image: 'https://images.unsplash.com/photo-1616137422495-1e9e46e2aa77?auto=format&fit=crop&q=80&w=800',
+    price: '65,000원',
+    buyUrl: 'https://doterra.me/neL3T9'
   },
   {
     id: '4',
@@ -28,7 +34,27 @@ export const PRODUCTS: Product[] = [
     category: '감정 케어',
     description: '오일의 왕이라 불리며 깊은 명상과 피부 건강에 탁월합니다.',
     image: 'https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&q=80&w=800',
+    price: '115,000원',
+    buyUrl: 'https://doterra.me/neL3T9'
   },
+  {
+    id: '5',
+    name: '레몬 (Lemon)',
+    category: '면역력 강화',
+    description: '상큼한 향으로 기분을 전환하고 정화 및 세정 효과가 뛰어납니다.',
+    image: 'https://images.unsplash.com/photo-1590540179852-2110a54f813a?auto=format&fit=crop&q=80&w=800',
+    price: '18,000원',
+    buyUrl: 'https://doterra.me/neL3T9'
+  },
+  {
+    id: '6',
+    name: '온가드 (On Guard)',
+    category: '면역력 강화',
+    description: '도테라만의 독특한 블렌드로 면역 체계를 보호하고 활력을 줍니다.',
+    image: 'https://images.unsplash.com/photo-1608571424266-edeb9bbefdad?auto=format&fit=crop&q=80&w=800',
+    price: '52,000원',
+    buyUrl: 'https://doterra.me/neL3T9'
+  }
 ];
 
 export const SYMPTOMS: Symptom[] = [
@@ -73,7 +99,8 @@ export const BLOG_POSTS: BlogCard[] = [
     excerpt: '에센셜 오일의 세계에 처음 발을 들인 당신을 위한 완벽한 안내서입니다.',
     date: '2024.03.20',
     image: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=800',
-    category: 'Guide'
+    category: 'Guide',
+    link: 'https://aromamuse.tistory.com/21'
   },
   {
     id: '2',

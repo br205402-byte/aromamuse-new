@@ -6,7 +6,7 @@ import { cn } from '@/lib/utils';
 const NAV_ITEMS = [
   { name: 'Home', href: '#' },
   { name: 'Brand Story', href: '#brand' },
-  { name: 'Product Guide', href: '#products' },
+  { name: 'Shop', href: '#products' },
   { name: 'Membership', href: '#membership' },
   { name: 'Aroma Life', href: '#blog' },
   { name: 'Contact', href: '#contact' },

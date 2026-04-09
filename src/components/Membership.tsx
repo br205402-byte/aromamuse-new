@@ -74,10 +74,15 @@ export default function Membership() {
             <h4 className="text-2xl md:text-3xl font-serif mb-2">지금 바로 시작하세요</h4>
             <p className="text-white/80 font-light">추천인 코드: <span className="font-bold text-white underline decoration-gold underline-offset-4">17408567</span></p>
           </div>
-          <button className="px-10 py-4 bg-white text-sage rounded-full font-bold hover:bg-gold hover:text-white transition-all flex items-center gap-2 group">
+          <a 
+            href="https://doterra.me/neL3T9"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-10 py-4 bg-white text-sage rounded-full font-bold hover:bg-gold hover:text-white transition-all flex items-center gap-2 group"
+          >
             도테라 가입하러 가기
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-          </button>
+          </a>
         </motion.div>
       </div>
     </section>

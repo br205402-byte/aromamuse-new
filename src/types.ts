@@ -5,6 +5,7 @@ export interface Product {
   description: string;
   image: string;
   price?: string;
+  buyUrl?: string;
 }
 
 export interface Symptom {
@@ -23,4 +24,5 @@ export interface BlogCard {
   date: string;
   image: string;
   category: string;
+  link?: string;
 }
